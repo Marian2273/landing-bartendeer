@@ -449,14 +449,14 @@ img {
 
     float: left;
     width: 100%;
-    text-align: center;
-    margin: auto;
+    text-align: center!important;
+   
 
 }
 .circulos {
-    /* background-color: aqua; */
-    margin: auto;
-    width: 60%;
+     width: 1200px;
+     float: left;
+    margin-left: 21%;
 
 }
 
@@ -820,11 +820,13 @@ form input[type="submit"]:hover {
 
     .circulos {
         width: 72%;
+        margin-left: 15%;
     }
 }
 @media only screen and (max-width:1440px) {
     .circulos {
         width: 80%;
+        margin-left: 12%;
     }
     .span_1_of_1 h3 {
         font-size: 30px;
@@ -873,6 +875,10 @@ form input[type="submit"]:hover {
 
 }
 @media only screen and (max-width:1280px) {
+    .circulos {
+        width: 90%;
+        margin-left: 10%;
+    }
     .wrap {
         width: 85%;
     }
@@ -1012,6 +1018,10 @@ form input[type="submit"]:hover {
 
 }
 @media only screen and (max-width:768px) {
+    .circulos {
+        width: 80%;
+        margin-left: 10%;
+    }
     .wrap {
         width: 90%;
     }

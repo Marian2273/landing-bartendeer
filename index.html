@@ -341,29 +341,28 @@
 		 		<p>Permítanos mostrarle un producto innovador y déjenos darle la oportunidad de probarlo en forma gratuita.</p>
 		 		<div class="wrap">
 		 			<div class="con">
-				  			<form method="post" action="#">
-				  					<input type="text"  placeholder="Nombre" required/> 
-							    	<input type="text"   placeholder="Email" required/>
-										<div class="clear"> </div>
-								    <div>
-								    	<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Mensaje';}">Mensaje</textarea>
-									</div>
+					<form method="post" action="contact.php" id="ajax-contact">
+					<input type="text" placeholder="Nombre" name="nombre" required="required"/>
+					<input type="text" placeholder="Email" name="emial" required="required"/>
+					<div class="clear"></div>
+					<div>
+					<textarea name="mensaje">Mensaje</textarea>
+					
+					</div>
 
-									<div class="content-captcha">
-											<div class="g-recaptcha" data-sitekey="6LeBD6kUAAAAALmShUYMZLOMg6GpQgyyYWD4M1Ig">
-										</div> 
-									</div>
-								
-									<div class="con-button">
-											<input type="submit" value="Enviar" >
-									</div>
-							</form>
-						</div>
-						 <div class="clear"> </div>
+					<div class="content-captcha">
+					<div class="g-recaptcha" data-sitekey="6LeBD6kUAAAAALmShUYMZLOMg6GpQgyyYWD4M1Ig"></div>
+					</div>
+
+					<div class="con-button">
+					<input type="submit" value="Enviar"></div>
+					</form>
+					</div>
+					<div class="clear"> </div>
 
 								  
 		 	  		</div>
-				</div>
+				
 		 	</div>
 		 </div>
 		<!--//End-contact-->
