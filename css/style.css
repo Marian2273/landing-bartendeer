@@ -844,6 +844,10 @@ form input[type="submit"]:hover {
 
 }
 @media only screen and (max-width:1366px) {
+    .circulos {
+        width: 81%;
+        margin-left: 10%;
+    }
     .wrap {
         width: 85%;
     }
